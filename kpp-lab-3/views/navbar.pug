@@ -1,0 +1,17 @@
+nav.navbar.navbar-expand-md.navbar-light.fixed-top.bg-light.d-flex.justify-content-between
+    div
+        a.navbar-brand(href='/') PomDO
+        button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarCollapse', aria-controls='navbarCollapse', aria-expanded='false', aria-label='Toggle navigation')
+            span.navbar-toggler-icon
+    div
+        #navbarCollapse.collapse.navbar-collapse.text-right
+            ul.navbar-nav.mr-auto
+                if !currentUser
+                    li.nav-item
+                        a.nav-link(href='/register') Register
+                if currentUser
+                    a.nav-link(href="/logout") Log out
+                else 
+                    li.nav-item
+                        a.nav-link(href='/login') Sign in
+                

@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    color: #444;
+}
+h1, h3{
+    font-family: 'Pacifico', cursive;
+    padding: 1em 0;
+}
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+}
+
+#wrapper {
+    padding-top: 6em;
+
+}
+#todoContainer,
+#incompletedTasksContainer,
+#completedTasks {
+    padding: 1em;
+    border-radius: 15px;
+}
+
+
+#shortTermContainer {
+    min-height: 500px;
+}
+#pomodoroModal .modal-body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#pomodoroClock{
+    font-family: 'Faster One', cursive;
+    font-size: 4em;
+    color: #222;
+}
+.progress{
+    width: 100%;
+}
+

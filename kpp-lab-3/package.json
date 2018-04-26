@@ -1,0 +1,37 @@
+{
+  "name": "pomdo_node",
+  "version": "1.0.0",
+  "description": "The to do app meets the pomodoro technique to help you achieve more. With this app you can keep track of your tasks, and if you want to work on a specific task, you have access to a buil-in pomodoro timer that will count up (for 25 mins) while you work on your task, and then count downs (for 5) while you rest. ",
+  "main": "app.js",
+  "scripts": {
+    "test": "test this",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpdevspace/PomDO_Node.git"
+  },
+  "keywords": [
+    "node",
+    "pomodoro",
+    "to",
+    "do",
+    "time",
+    "management"
+  ],
+  "author": "Jean Paul Giraldo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpdevspace/PomDO_Node/issues"
+  },
+  "homepage": "https://github.com/jpdevspace/PomDO_Node#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "connect-mongo": "^2.0.1",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "mongoose": "^4.13.9",
+    "pug": "^2.0.0-rc.4"
+  }
+}

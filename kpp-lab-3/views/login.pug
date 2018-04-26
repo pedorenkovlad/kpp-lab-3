@@ -1,0 +1,15 @@
+extends layout
+
+block content
+    .d-flex.justify-content-center
+        .col-md-6
+            h1.text-center Log In
+            form(action="/login" method="POST")
+                .form-group
+                    label(for="email") Email address
+                    input.form-control#email(type="email" placeholder="Enter email" name="email")
+                .form-group
+                    label(for="password") Password
+                    input.form-control#password(type="password" placeholde="Password" name="password")
+                .d-flex.justify-content-center
+                    button.btn.btn-info(type="submit") Log in
